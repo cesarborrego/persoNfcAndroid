@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/cesar/Android/PersoTollingNeology/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/cesar/Android/PersoTollingNeology/app/build/intermediates/pre-dexed/debug/classes-defa2b49b3ab66c68559147ee23cccc1c0d9622f.jar" />
+    </item>
+    <item
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/cesar/Android/PersoTollingNeology/app/build/intermediates/pre-dexed/debug/gson-2.3.1-db347212bcda2648244d4b24078ad368b698503a.jar" />
+    </item>
+    <item
+        jar="/home/cesar/Android/PersoTollingNeology/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/cesar/Android/PersoTollingNeology/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0-a5cfa219a50e6d421f49dd76954452e93a59fa48.jar" />
+    </item>
+    <item
+        jar="/home/cesar/Android/PersoTollingNeology/app/libs/android-support-v13.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5b3db0befb5f9a8c310ca661ea2f67da12871fa2">
+        <dex dex="/home/cesar/Android/PersoTollingNeology/app/build/intermediates/pre-dexed/debug/android-support-v13-89425f40834c5149374949ee858f17697ed493b0.jar" />
+    </item>
+    <item
+        jar="/home/cesar/Android/PersoTollingNeology/app/libs/ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="224c93f1824fa17b96db7250c2e5e2703d45e052">
+        <dex dex="/home/cesar/Android/PersoTollingNeology/app/build/intermediates/pre-dexed/debug/ksoap2-android-assembly-3.0.0-jar-with-dependencies-d26965cf1f6c34a0713b31a394030c052f0bc91d.jar" />
+    </item>
+    <item
+        jar="/root/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/14.0.1/69e12f4c6aeac392555f1ea86fab82b5e5e31ad4/guava-14.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="69e12f4c6aeac392555f1ea86fab82b5e5e31ad4">
+        <dex dex="/home/cesar/Android/PersoTollingNeology/app/build/intermediates/pre-dexed/debug/guava-14.0.1-ebd6785bb5c708cc8e3bd8348f530d3f872547f3.jar" />
+    </item>
+    <item
+        jar="/home/cesar/android-sdks/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/cesar/Android/PersoTollingNeology/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0-8eb123a898833ceab80fd686483fa670617b4a09.jar" />
+    </item>
+    <item
+        jar="/home/cesar/Android/PersoTollingNeology/app/libs/bcprov-jdk15on-149.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f5155f04330459104b79923274db5060c1057b99">
+        <dex dex="/home/cesar/Android/PersoTollingNeology/app/build/intermediates/pre-dexed/debug/bcprov-jdk15on-149-a282a108383f5dd213bda1a387c62e54cb11caa9.jar" />
+    </item>
+
+</items>

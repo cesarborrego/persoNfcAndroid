@@ -1,0 +1,272 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PersoFroovieActivity" >
+
+    <ImageView
+        android:id="@+id/froovie_logo_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/menu_froovie"
+        android:src="@drawable/froovie" />
+
+    <TextView
+        android:id="@+id/label_fr_ins1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/froovie_logo_iv"
+        android:layout_marginTop="10dp"
+        android:text="@string/froovie_instrucciones0"
+        android:textSize="17sp" 
+        android:textColor="@android:color/darker_gray" />
+
+    <View
+        android:id="@+id/separator0_view"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/label_fr_ins1"
+        android:background="@android:color/darker_gray" />
+
+    <RadioGroup
+        android:id="@+id/tipo_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/separator0_view"
+        android:layout_marginTop="10dp" >
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/froovie_perso_cup"
+            android:textSize="20sp"
+            android:onClick="onChangeTypePerso" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/froovie_perso_poster"
+            android:textSize="20sp" 
+            android:onClick="onChangeTypePerso"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/label_fr_ins2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tipo_rg"
+        android:layout_marginTop="10dp"
+        android:text="@string/froovie_instrucciones1_cup"
+        android:textSize="17sp" 
+        android:textColor="@android:color/darker_gray" />
+
+    <View
+        android:id="@+id/separator1_view"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/label_fr_ins2"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:id="@+id/cup_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/separator1_view"
+        android:layout_marginTop="10dp" 
+        >
+
+        <TextView
+            android:id="@+id/label_cup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/froovie_label_cup" />
+
+        <EditText
+            android:id="@+id/cup_et"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label_cup"
+            android:inputType="number"
+            android:hint="@string/only_numbers"
+            android:maxLength="10"
+            android:textSize="20sp" 
+            android:text="@string/froovie_ex_cup_id" />
+        
+        <TextView
+        android:id="@+id/label_fr_ins3_cup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cup_et"
+        android:layout_marginTop="20dp"
+        android:text="@string/froovie_instrucciones2"
+        android:textSize="17sp" 
+        android:textColor="@android:color/darker_gray" />
+        
+        <View
+        android:id="@+id/separator2_view"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/label_fr_ins3_cup"
+        android:background="@android:color/darker_gray" />
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:id="@+id/poster_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/separator1_view"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+        
+        <ScrollView
+        android:id="@+id/opciones_sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+        <RadioGroup
+        android:id="@+id/flavors_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioButton
+            android:id="@+id/flavor_0_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/froovie_flavor_0" 
+            android:textSize="20sp" 
+            android:onClick="onColorSelection"/>
+
+        <RadioButton
+            android:id="@+id/flavor_1_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/froovie_flavor_1" 
+            android:textSize="20sp" 
+            android:onClick="onColorSelection"/>
+        
+        <RadioButton
+            android:id="@+id/flavor_2_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/froovie_flavor_2" 
+            android:textSize="20sp" 
+            android:onClick="onColorSelection"/>
+        
+        <RadioButton
+            android:id="@+id/flavor_3_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/froovie_flavor_3" 
+            android:textSize="20sp" 
+            android:onClick="onColorSelection"/>
+        
+        <RadioButton
+            android:id="@+id/flavor_4_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/froovie_flavor_4" 
+            android:textSize="20sp" 
+            android:onClick="onColorSelection"/>
+        
+        <RadioButton
+            android:id="@+id/flavor_5_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/froovie_flavor_5" 
+            android:textSize="20sp" 
+            android:onClick="onColorSelection"/>
+        
+        <RadioButton
+            android:id="@+id/flavor_6_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/froovie_flavor_6" 
+            android:textSize="20sp" 
+            android:onClick="onColorSelection"/>
+        
+        <RadioButton
+            android:id="@+id/flavor_7_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/froovie_flavor_7" 
+            android:textSize="20sp" 
+            android:onClick="onColorSelection"/>
+        
+        <RadioButton
+            android:id="@+id/flavor_8_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/froovie_flavor_8" 
+            android:textSize="20sp" 
+            android:onClick="onColorSelection"/>
+        
+        <RadioButton
+            android:id="@+id/flavor_9_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/froovie_flavor_9" 
+            android:textSize="20sp" 
+            android:onClick="onColorSelection"/>
+        
+        <RadioButton
+            android:id="@+id/flavor_10_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/froovie_flavor_10" 
+            android:textSize="20sp" 
+            android:onClick="onColorSelection"/>
+        
+        <RadioButton
+            android:id="@+id/flavor_11_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/froovie_flavor_11" 
+            android:textSize="20sp" 
+            android:onClick="onColorSelection"/>
+        
+        <RadioButton
+            android:id="@+id/flavor_12_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/froovie_flavor_12" 
+            android:textSize="20sp" 
+            android:onClick="onColorSelection"/>
+        
+       
+        
+    </RadioGroup>
+    
+        </ScrollView>
+        <TextView
+        android:id="@+id/label_fr_ins3_poster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/opciones_sv"
+        android:layout_marginTop="20dp"
+        android:text="@string/froovie_instrucciones2"
+        android:textSize="17sp" 
+        android:textColor="@android:color/darker_gray" />
+        
+        <View
+        android:id="@+id/separator2_poster_view"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/label_fr_ins3_poster"
+        android:background="@android:color/darker_gray" />
+        
+    </RelativeLayout>
+    
+    
+
+</RelativeLayout><!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/layout/activity_perso_froovie.xml -->

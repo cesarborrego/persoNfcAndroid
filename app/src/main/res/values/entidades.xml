@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="entidades">
+        <item>No disponible</item>
+        <item>AGUASCALIENTES</item>
+        <item>BAJA CALIFORNIA NORTE</item>
+        <item>BAJA CALIFORNIA SUR</item>
+        <item>CAMPECHE</item>
+        <item>COAHUILA DE ZARAGOZA</item>
+        <item>COLIMA</item>
+        <item>CHIAPAS</item>
+        <item>CHIHUAHUA</item>
+        <item>DISTRITO FEDERAL</item>
+        <item>DURANGO</item>
+        <item>GUANAJUATO</item>
+        <item>GUERRERO</item>
+        <item>HIDALGO</item>
+        <item>JALISCO</item>
+        <item>ESTADO DE MEXICO</item>
+        <item>MICHOACAN DE OCAMPO</item>
+        <item>MORELOS</item>
+        <item>NAYARIT</item>
+        <item>NUEVO LEON</item>
+        <item>OAXACA</item>
+        <item>PUEBLA</item>
+        <item>QUERETARO DE ARTEAGA</item>
+        <item>QUINTANA ROO</item>
+        <item>SAN LUIS POTOSI</item>
+        <item>SINALOA</item>
+        <item>SONORA</item>
+        <item>TABASCO</item>
+        <item>TAMAULIPAS</item>
+        <item>TLAXCALA</item>
+        <item>VERACRUZ</item>
+        <item>YUCATAN</item>
+        <item>ZACATECAS</item>
+    </string-array>
+
+</resources>

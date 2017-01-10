@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!-- <TextView
+        android:id="@+id/title"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/title_app"
+        android:textColor="#FFBB33"
+        android:textSize="46sp" />-->
+    
+    <ImageView 
+        android:id="@+id/image_title"
+        android:layout_width="341dp"
+        android:layout_height="125dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/neology_tb2"
+        android:contentDescription="@string/title_app"
+        />
+    <TextView
+        android:id="@+id/label_plate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/vehicle_label"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/vehicle_name"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_plate"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="0dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/vehicle_name"
+        android:textColor="#0099CC"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/label_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vehicle_name"
+        android:layout_alignLeft="@id/label_plate"
+        android:layout_marginTop="30dp"
+        android:text="@string/balance_label"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+        android:id="@+id/label_tmpBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/label_balance"
+        android:layout_below="@id/vehicle_name"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/tmp_balance"
+        android:textColor="#0099CC"
+        android:textSize="46sp"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/button_recharge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@id/label_balance"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:onClick="openRecharge"
+        android:text="@string/recharge_label"
+        android:drawableLeft="@drawable/abono_icon"
+        
+        android:textSize="36sp"
+        android:textStyle="normal"
+        
+        android:width="300dp"
+        android:height="70dp" />
+
+    <Button
+        android:id="@+id/button_historic"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@id/button_recharge"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif"
+        android:onClick="openHistoric"
+        android:text="@string/historic_label"
+        android:drawableLeft="@drawable/cargo_icon"
+        android:textSize="36sp"
+        android:textStyle="normal"
+        
+        android:width="300dp"
+        android:height="70dp" />
+       
+    <Button
+        android:id="@+id/button_readTagNFC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_historic"
+        android:layout_marginTop="1dp"
+        android:fontFamily="sans-serif"
+        android:onClick="openReadNFC"
+        android:text="@string/readTagNFC_label"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        android:width="300dp"
+        android:height="50dp" />
+ 
+     
+ 
+    
+
+    
+
+</RelativeLayout><!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/layout/activity_main.xml -->

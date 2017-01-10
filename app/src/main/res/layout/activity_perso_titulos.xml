@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PersoCedula_NEOActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/label_cardID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TITULO" />
+
+        <EditText
+            android:id="@+id/tituloID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="LICENCIADO EN ARQUITECTURA"/>
+
+        <TextView
+            android:id="@+id/label_clientID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE" /> 
+
+        <EditText
+            android:id="@+id/nombreID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="JOSÉ GARCÍA GARCÍA" />
+
+        <TextView
+            android:id="@+id/label_balanceID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CARRERA" />
+
+        <EditText
+            android:id="@+id/carreraID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="1" />
+        
+        <TextView
+            android:id="@+id/label_pointsID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIVEL DE ESTUDIOS" />
+
+        <EditText
+            android:id="@+id/nivelID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="1" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NÚMERO DE IDENTIFICACIÓN" />
+
+        <EditText
+            android:id="@+id/numIdentificacionID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="30166497" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:text="CLAVE DE ESCUELA" />
+
+        <EditText
+            android:id="@+id/claveEscuelaID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="021562" />
+    </LinearLayout>
+
+</RelativeLayout>

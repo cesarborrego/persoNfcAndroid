@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tiposacceso">
+        <item>No Disponible</item>
+        <item>General A</item>
+        <item>General B</item>
+        <item>VIP</item>
+    </string-array>
+</resources>

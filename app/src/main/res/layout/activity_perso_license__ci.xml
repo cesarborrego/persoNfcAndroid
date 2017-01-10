@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PersoLicense_CIActivity" >
+
+    <TextView
+        android:id="@+id/ci_1_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_tipo_doc" />
+    <EditText 
+        android:id="@+id/ci_1_et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ci_1_tv"
+        android:inputType="text"
+        android:text="@string/ci_tipo"/>
+    
+    <TextView
+        android:id="@+id/ci_2_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ci_1_et"
+        android:text="@string/label_cedula" />
+    <EditText 
+        android:id="@+id/ci_2_et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ci_2_tv"
+        android:inputType="text"
+        android:text="@string/ci_numero"/>
+    
+    <TextView
+        android:id="@+id/ci_3_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ci_2_et"
+        android:text="@string/label_fecha_emision" />
+    <EditText 
+        android:id="@+id/ci_3_et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ci_3_tv"
+        android:inputType="text"
+        android:text="@string/ci_date_i"/>
+    
+    <TextView
+        android:id="@+id/ci_4_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ci_3_et"
+        android:text="@string/label_fecha_vencimiento" />
+    <EditText 
+        android:id="@+id/ci_4_et"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ci_4_tv"
+        android:inputType="text"
+        android:text="@string/ci_date_f"/>
+
+</RelativeLayout>

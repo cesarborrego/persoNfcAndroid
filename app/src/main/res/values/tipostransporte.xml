@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipostransporte">
+        <item>No disponible </item>
+        <item>Autotransporte Federal Carga, Pasaje y Turismo, con inversión extranjera, arrendamiento y arrendamiento de uso particular. (Unidades Motrices y Remolques).</item>
+        <item>Autotransporte Federal Transfronterizo de carga (Unidades Motrices y Remolques)</item>
+        <item>Autotransporte Federal Transfronterizo de pasaje</item>
+        <item>Autotransporte Federal Pasaje Económico y Mixto (Midibús)</item>
+        <item>Autotransporte Federal Traslado Nacional (Para todo tipo de vehículos)</item>
+        <item>Autotransporte Federal Traslado Nacional (Para Motocicletas)</item>
+        <item>Autotransporte Federal Paquetería y mensajería</item>
+        <item>Autotransporte Federal De capacidades diferentes</item>
+        <item>Autotransporte Federal Vehículos de diagnóstico (Para fabricantes de vehículos)</item>
+        <item>Transporte Particular Fronterizos Automóviles</item>
+        <item>Transporte Particular Fronterizos Camiones, Autobuses y Remolques</item>
+        <item>Público Local Automóviles, Camiones, Autobuses y Remolques</item>
+        <item>Corporaciones Policiacas y de Vigilancia Todo tipo de vehículos</item>
+        <item>Corporaciones Policiacas y de Vigilancia Policía de Tránsito</item>
+        <item>Corporaciones Policiacas y de Vigilancia Policía Auxiliar</item>
+        <item>Corporaciones Policiacas y de Vigilancia Policía Federal</item>
+        <item>Corporaciones Policiacas y de Vigilancia Policía Bancaria</item>
+        <item>Transporte Particular  Demostración, Distrito Federal (Todo tipo de vehículos)</item>
+        <item>Transporte Particular Demostración Entidades Federativas (Todo tipo de vehículos)</item>
+        <item>Transporte Particular Automóvil</item>
+        <item>Transporte Particular Camiones</item>
+        <item>Transporte Particular Autobuses</item>
+        <item>Transporte Particular Remolques</item>
+        <item>Público Local Libre y Sitio</item>
+        <item>Público Local Con itinerario fijo</item>
+        <item>Público Local Autobuses, Camiones y remolques</item>
+        <item>Público Local (Entidades Federativas) Automóviles</item>
+        <item>Público Local (Entidades Federativas) Camiones</item>
+        <item>Público Local (Entidades Federativas) Autobuses</item>
+        <item>Público Local (Entidades Federativas) Remolques</item>
+        <item>Transporte Particular (Autos Antiguos) Distrito Federal</item>
+        <item>Transporte Particular (Autos Antiguos) Entidades Federativas</item>
+        <item>H. Cuerpo de Bomberos Distrito Federal</item>
+        <item>H. Cuerpo de Bomberos Entidades Federativas</item>
+        <item>Inspección de Vías Generales de Comunicación S.C.T.</item>
+    </string-array>
+</resources>

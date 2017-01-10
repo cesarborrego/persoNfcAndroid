@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cedulas">
+        <item>399270</item>
+		<item>5600456659</item>
+		<item>99669966</item>
+		<item>6500008893</item>
+		<item>6500008895</item>
+		<item>6500008896</item>
+		<item>6500008897</item>
+		<item>99669967</item>
+    </string-array>
+</resources>

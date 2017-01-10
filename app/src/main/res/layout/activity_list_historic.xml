@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/historicLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:padding="12dp" >
+
+    <ListView
+        android:id="@+id/historicListView"
+        
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fastScrollEnabled="true"
+        android:scrollbarStyle="insideInset"
+        android:textFilterEnabled="false"/>
+
+</LinearLayout>

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values/cedulas.xml -->
+    <eat-comment/>
+    <string-array name="cedulas">
+        <item>399270</item>
+		<item>5600456659</item>
+		<item>99669966</item>
+		<item>6500008893</item>
+		<item>6500008895</item>
+		<item>6500008896</item>
+		<item>6500008897</item>
+		<item>99669967</item>
+    </string-array>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values/colores.xml -->
+    <eat-comment/>
+    <string-array name="colores">
+        <item>Sin color</item>
+		<item>Amarillo</item>
+		<item>Rosa</item>
+		<item>Rojo</item>
+		<item>Verde</item>
+		<item>Azul</item>
+    </string-array>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values/entidades.xml -->
+    <eat-comment/>
+    <string-array name="entidades">
+        <item>No disponible</item>
+        <item>AGUASCALIENTES</item>
+        <item>BAJA CALIFORNIA NORTE</item>
+        <item>BAJA CALIFORNIA SUR</item>
+        <item>CAMPECHE</item>
+        <item>COAHUILA DE ZARAGOZA</item>
+        <item>COLIMA</item>
+        <item>CHIAPAS</item>
+        <item>CHIHUAHUA</item>
+        <item>DISTRITO FEDERAL</item>
+        <item>DURANGO</item>
+        <item>GUANAJUATO</item>
+        <item>GUERRERO</item>
+        <item>HIDALGO</item>
+        <item>JALISCO</item>
+        <item>ESTADO DE MEXICO</item>
+        <item>MICHOACAN DE OCAMPO</item>
+        <item>MORELOS</item>
+        <item>NAYARIT</item>
+        <item>NUEVO LEON</item>
+        <item>OAXACA</item>
+        <item>PUEBLA</item>
+        <item>QUERETARO DE ARTEAGA</item>
+        <item>QUINTANA ROO</item>
+        <item>SAN LUIS POTOSI</item>
+        <item>SINALOA</item>
+        <item>SONORA</item>
+        <item>TABASCO</item>
+        <item>TAMAULIPAS</item>
+        <item>TLAXCALA</item>
+        <item>VERACRUZ</item>
+        <item>YUCATAN</item>
+        <item>ZACATECAS</item>
+    </string-array>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values/matriculas.xml -->
+    <eat-comment/>
+    <string-array name="matriculas">
+        <item>200901A-11</item>
+		<item>30598277A-11</item>
+		<item>201001A-66</item>
+		<item>85923797A-12</item>
+		<item>77338520A-13</item>
+		<item>62719190A-14</item>
+		<item>69978991A-15</item>
+		<item>201001A-67</item>
+    </string-array>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values/tiposacceso.xml -->
+    <eat-comment/>
+    <string-array name="tiposacceso">
+        <item>No Disponible</item>
+        <item>General A</item>
+        <item>General B</item>
+        <item>VIP</item>
+    </string-array>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values/tipospromocion.xml -->
+    <eat-comment/>
+    <string-array name="tipospromocion">
+        <item>Ninguna</item>
+        <item>Descuento 10%</item>
+        <item>Descuento 15%</item>
+    </string-array>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values/tiposservicio.xml -->
+    <eat-comment/>
+    <string-array name="tiposservicio">
+    	<item>Ninguno</item>
+    	<item>Estacionamiento</item>
+    	<item>Transporte</item>    
+    </string-array>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values/tipostransporte.xml -->
+    <eat-comment/>
+    <string-array name="tipostransporte">
+        <item>No disponible </item>
+        <item>Autotransporte Federal Carga, Pasaje y Turismo, con inversión extranjera, arrendamiento y arrendamiento de uso particular. (Unidades Motrices y Remolques).</item>
+        <item>Autotransporte Federal Transfronterizo de carga (Unidades Motrices y Remolques)</item>
+        <item>Autotransporte Federal Transfronterizo de pasaje</item>
+        <item>Autotransporte Federal Pasaje Económico y Mixto (Midibús)</item>
+        <item>Autotransporte Federal Traslado Nacional (Para todo tipo de vehículos)</item>
+        <item>Autotransporte Federal Traslado Nacional (Para Motocicletas)</item>
+        <item>Autotransporte Federal Paquetería y mensajería</item>
+        <item>Autotransporte Federal De capacidades diferentes</item>
+        <item>Autotransporte Federal Vehículos de diagnóstico (Para fabricantes de vehículos)</item>
+        <item>Transporte Particular Fronterizos Automóviles</item>
+        <item>Transporte Particular Fronterizos Camiones, Autobuses y Remolques</item>
+        <item>Público Local Automóviles, Camiones, Autobuses y Remolques</item>
+        <item>Corporaciones Policiacas y de Vigilancia Todo tipo de vehículos</item>
+        <item>Corporaciones Policiacas y de Vigilancia Policía de Tránsito</item>
+        <item>Corporaciones Policiacas y de Vigilancia Policía Auxiliar</item>
+        <item>Corporaciones Policiacas y de Vigilancia Policía Federal</item>
+        <item>Corporaciones Policiacas y de Vigilancia Policía Bancaria</item>
+        <item>Transporte Particular  Demostración, Distrito Federal (Todo tipo de vehículos)</item>
+        <item>Transporte Particular Demostración Entidades Federativas (Todo tipo de vehículos)</item>
+        <item>Transporte Particular Automóvil</item>
+        <item>Transporte Particular Camiones</item>
+        <item>Transporte Particular Autobuses</item>
+        <item>Transporte Particular Remolques</item>
+        <item>Público Local Libre y Sitio</item>
+        <item>Público Local Con itinerario fijo</item>
+        <item>Público Local Autobuses, Camiones y remolques</item>
+        <item>Público Local (Entidades Federativas) Automóviles</item>
+        <item>Público Local (Entidades Federativas) Camiones</item>
+        <item>Público Local (Entidades Federativas) Autobuses</item>
+        <item>Público Local (Entidades Federativas) Remolques</item>
+        <item>Transporte Particular (Autos Antiguos) Distrito Federal</item>
+        <item>Transporte Particular (Autos Antiguos) Entidades Federativas</item>
+        <item>H. Cuerpo de Bomberos Distrito Federal</item>
+        <item>H. Cuerpo de Bomberos Entidades Federativas</item>
+        <item>Inspección de Vías Generales de Comunicación S.C.T.</item>
+    </string-array>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="titlebackgroundcolor">#3232CD</color>
+    <color name="titletextcolor">#FFFF00</color>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">v0.3</string>
+    <string name="alert_placa">Ingrese el número de placa</string>
+    <string name="alert_usuario">Ingrese ID de usuario</string>
+    <string name="app_name">Write Demo Neology</string>
+    <string name="balance_label">Saldo</string>
+    <string name="bo_auto_fecha_emision_default">26-07-2013</string>
+    <string name="bo_auto_fecha_vencimiento_default">26-07-2014</string>
+    <string name="bo_auto_lugar_default">1</string>
+    <string name="bo_auto_placa">A12345-8</string>
+    <string name="bo_auto_poliza_default">85923797A-12</string>
+    <string name="bo_auto_tipo_poliza_default">1</string>
+    <string name="bo_cedula_default">6500008893</string>
+    <string name="bo_fecha_emision_default">26-07-2013</string>
+    <string name="bo_fecha_vencimiento_default">26-07-2015</string>
+    <string name="bo_lugar_default">2</string>
+    <string name="bo_matricula_default">85923797A-12</string>
+    <string name="bo_seccion_default">23223</string>
+    <string name="bo_serie_default">32334</string>
+    <string name="btn_Combustible_EC">Control Combustible Ecuador</string>
+    <string name="btn_perso_bo_auto">Perso Bolivia Autos</string>
+    <string name="btn_perso_fidelityCard">V-Tag</string>
+    <string name="btn_perso_met">Metlife Poliza</string>
+    <string name="btn_perso_neo_cedula">Neology Cédula de Identidad</string>
+    <string name="ci_date_f">11-11-2017</string>
+    <string name="ci_date_i">05-05-2013</string>
+    <string name="ci_numero">5512657−965234−5</string>
+    <string name="ci_tipo">AA</string>
+    <string name="error_label">Ocurrió un conflicto. Acerque nuevamente el tag NFC</string>
+    <string name="froovie_alert_cup">Input the Cup Number</string>
+    <string name="froovie_ex_cup_id">00000001</string>
+    <string name="froovie_flavor_0">Tropical Hydration</string>
+    <string name="froovie_flavor_1">Berry Clean Energy</string>
+    <string name="froovie_flavor_10">Oatmeal Raisin cookie</string>
+    <string name="froovie_flavor_11">Dark Chocolate cookie</string>
+    <string name="froovie_flavor_12">Peanut Butter Chocolate Chip cookie</string>
+    <string name="froovie_flavor_2">Berry Beet N Banana</string>
+    <string name="froovie_flavor_3">Easy Greens</string>
+    <string name="froovie_flavor_4">Berry 3 Smart</string>
+    <string name="froovie_flavor_5">Orange Immunity</string>
+    <string name="froovie_flavor_6">Organic Chewy Brownie</string>
+    <string name="froovie_flavor_7">Chocolate Chip cookie</string>
+    <string name="froovie_flavor_8">Cranberry Orange cookie</string>
+    <string name="froovie_flavor_9">Organic Macaroon cookie</string>
+    <string name="froovie_instrucciones0">1.- SELECT THE PERSO TYPE</string>
+    <string name="froovie_instrucciones1_cup">2.- INPUT THE SMART CUP ID</string>
+    <string name="froovie_instrucciones1_poster">2.- SELECT THE POSTER FLAVOR</string>
+    <string name="froovie_instrucciones2">3.- TAP THE NFC TAG TO WRITE THE DATA</string>
+    <string name="froovie_label_cup">Cup Number</string>
+    <string name="froovie_perso_cup">Smart Cup</string>
+    <string name="froovie_perso_poster">Smart Poster</string>
+    <string name="gettingdata">Obteniendo información…</string>
+    <string name="grabado_label">Grabado correctamente</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="historic_label">Movimientos</string>
+    <string name="instrucciones0_label">1.- Ingrese un ID entre NFC3 hasta NFC21</string>
+    <string name="instrucciones2_label">Dato a grabar:</string>
+    <string name="instrucciones_label">2.- Aproxime el tag NFC para grabar la informacion</string>
+    <string name="label_bo_auto_fecha_emision">Fecha emisión (DD-MM-YYYY)</string>
+    <string name="label_bo_auto_fecha_vencimiento">Fecha vencimiento (DD-MM-YYYY)</string>
+    <string name="label_bo_auto_lugar_emision">Clave lugar emisión (1 a 9)</string>
+    <string name="label_bo_auto_placa">Placa</string>
+    <string name="label_bo_auto_poliza">Póliza</string>
+    <string name="label_bo_auto_tipo_poliza">Tipo de póliza (1 a 3)</string>
+    <string name="label_cantidadGalones_combustibleEC">Cantidad de Galones a consumir en el mes</string>
+    <string name="label_cardID">V-Tag No.</string>
+    <string name="label_cedula">Cédula</string>
+    <string name="label_clientBalance">AVAILABLE BALANCE</string>
+    <string name="label_clientID">CLIENT ID</string>
+    <string name="label_clientPoints">POINTS</string>
+    <string name="label_color">Color engomado</string>
+    <string name="label_dateCreate">PLATE NUMBER</string>
+    <string name="label_estado">Estado</string>
+    <string name="label_expirateDate">MODEL</string>
+    <string name="label_fecha_emision">Fecha emisión (DD-MM-YYYY)</string>
+    <string name="label_fecha_registro">Fecha Registro (DD-MM-YYYY)</string>
+    <string name="label_fecha_vencimiento">Fecha vencimiento (DD-MM-YYYY)</string>
+    <string name="label_folioTag_combustibleEC">Folio TAG</string>
+    <string name="label_fuelType">FUEL TYPE</string>
+    <string name="label_id_usuario">ID Usuario</string>
+    <string name="label_lugar_emision">Clave lugar emisión (1 a 9)</string>
+    <string name="label_matricula">Matrícula</string>
+    <string name="label_placa">Placa</string>
+    <string name="label_placaVehiculo_combustibleEC">Placa del Vehículo</string>
+    <string name="label_seccion">Sección</string>
+    <string name="label_serie">Serie</string>
+    <string name="label_subsidio_combustibleEC">¿Cuenta con subsidio?</string>
+    <string name="label_tipo">Tipo de vehículo</string>
+    <string name="label_tipo_doc">Tipo de Documento</string>
+    <string name="label_tipo_info">(20 vehiculo particular | 21 camión particular)</string>
+    <string name="login_label">Ingrese la contraseña</string>
+    <string name="menu_cedula_bo">Cédulas Bolivia Perso</string>
+    <string name="menu_froovie">Froovie Perso</string>
+    <string name="menu_license_ci">Costa de Marfil</string>
+    <string name="menu_ocesa_demo">OCESA Demo</string>
+    <string name="menu_parking">Parking Perso</string>
+    <string name="menu_skidata">Ski Data</string>
+    <string name="menu_tc_ecu">Tarjeta Circulacion ECU</string>
+    <string name="menu_tolling">Tolling Perso</string>
+    <string name="neo_cedula_default">6500008893</string>
+    <string name="neo_fecha_emision_default">26-07-2013</string>
+    <string name="neo_fecha_vencimiento_default">26-07-2014</string>
+    <string name="neo_lugar_default">1</string>
+    <string name="neo_matricula_default">85923797A-12</string>
+    <string name="neo_seccion_default">23223</string>
+    <string name="neo_serie_default">32334</string>
+    <string name="ocesa_demo_promociones">Promociones</string>
+    <string name="ocesa_demo_servicios">Servicios</string>
+    <string name="ocesa_demo_tipo_acceso">Tipo de Acceso</string>
+    <string name="ok_label">OK</string>
+    <string name="only_numbers">Length 1 to 10 numbers</string>
+    <string name="parking_plate_default">RFID001</string>
+    <string name="readTagNFC_label">Test Leer NFC</string>
+    <string name="recharge_label">Recarga</string>
+    <string name="registrado_ok">Registrado Correctamente</string>
+    <string name="skidata_id">SKIDATA0001</string>
+    <string name="skidata_inst1">Ingrese un ID entre SKIDATA0001 hasta SKIDATA0010</string>
+    <string name="tc_ecu_fem_default">29-10-2014</string>
+    <string name="tc_ecu_fex_default">29-10-2015</string>
+    <string name="tc_ecu_fre_default">29-10-2014</string>
+    <string name="tc_ecu_id_default">0912456789</string>
+    <string name="tc_ecu_placa_default">GHC-0568</string>
+    <string name="title_activity_list_historic">Consulta de movimientos</string>
+    <string name="title_activity_list_recharge">Recarga de Saldo</string>
+    <string name="title_activity_login">Write Demo Neology</string>
+    <string name="title_activity_menu_perso">Perso Menu</string>
+    <string name="title_activity_perso_bo_auto">PersoBO_Auto</string>
+    <string name="title_activity_perso_cedula__bo">PersoCedula_BOActivity</string>
+    <string name="title_activity_perso_ec__armas">PersoEC_ArmasActivity</string>
+    <string name="title_activity_perso_froovie">PersoFroovieActivity</string>
+    <string name="title_activity_perso_license__ci">PersoLicense_CIActivity</string>
+    <string name="title_activity_perso_neo_cedula">PersoNEO_Cedula</string>
+    <string name="title_activity_perso_ocesa_demo">PersoOcesaDemoActivity</string>
+    <string name="title_activity_perso_parking">PersoParkingActivity</string>
+    <string name="title_activity_perso_ski_data">PersoSkiDataActivity</string>
+    <string name="title_activity_perso_tarjeta_circulacion_ecu">PersoTarjetaCirculacionECUActivity</string>
+    <string name="title_activity_perso_tlrequisicion">PersoTLRequisicionActivity</string>
+    <string name="title_activity_recharge">Grabar tag NFC</string>
+    <string name="title_app">Neology</string>
+    <string name="title_list_recharge">Seleccione la cantidad que desea recargar</string>
+    <string name="title_parking_perso">1. Ingrese los valores a grabar</string>
+    <string name="tl_reqs_paquete">Nombre del paquete</string>
+    <string name="tl_reqs_paquete_default">c.tl.reqs_con</string>
+    <string name="tl_reqs_usuario">Nombre de usuario</string>
+    <string name="tmp_balance">$##.##</string>
+    <string name="txt_cantidadGalones_combustibleEC">50</string>
+    <string name="txt_cardID">A-0000001</string>
+    <string name="txt_clientBalance">$234.00</string>
+    <string name="txt_clientID">103000112</string>
+    <string name="txt_clientPoints">860</string>
+    <string name="txt_dateCreate">AB 123 CD</string>
+    <string name="txt_expirateDate">FORD FOCUS</string>
+    <string name="txt_folioTag_combustibleEC">A-30416775A</string>
+    <string name="txt_fuelType">DIESEL</string>
+    <string name="txt_placaVehiculo_combustibleEC">A-18745W</string>
+    <string name="vehicle_label">Tag</string>
+    <string name="vehicle_name">NEOT:########-#</string>
+    <string name="wait">Espere por favor</string>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+         
+    </style>
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.ActionBar">
+<!--         <item name="android:background">#26406C</item> -->
+        <item name="android:titleTextStyle">@style/myTheme.ActionBar.Text</item>
+        
+        <!--<item name="android:backgroundStacked">@drawable/ab_background</item>
+        <item name="android:backgroundSplit">@drawable/ab_split_background</item>-->
+    </style>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values/themes.xml -->
+    <eat-comment/>
+    <style name="customTheme" parent="android:Theme.Holo.Light"> 
+          
+    </style>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="myTheme.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#848285</item>
+        
+    </style>
+</resources>

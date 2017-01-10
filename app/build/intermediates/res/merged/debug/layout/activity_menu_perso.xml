@@ -1,0 +1,215 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MenuPersoActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="35dp"
+            android:onClick="openTollPerso"
+            android:text="@string/menu_tolling" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button1"
+            android:layout_marginTop="16dp"
+            android:onClick="openParkingPerso"
+            android:text="@string/menu_parking" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button2"
+            android:layout_marginTop="16dp"
+            android:onClick="openCedulaBOPerso"
+            android:text="@string/menu_cedula_bo" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button3"
+            android:layout_marginTop="16dp"
+            android:onClick="openFrooviePerso"
+            android:text="@string/menu_froovie" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button4"
+            android:layout_marginTop="16dp"
+            android:onClick="openLicenseCIPerso"
+            android:text="@string/menu_license_ci" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button5"
+            android:layout_marginTop="16dp"
+            android:onClick="openOcesaDemoPerso"
+            android:text="@string/menu_ocesa_demo" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button6"
+            android:layout_marginTop="16dp"
+            android:onClick="openSkiDataPerso"
+            android:text="@string/menu_skidata" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button7"
+            android:layout_marginTop="16dp"
+            android:onClick="openTarjetasCirculacionECUPerso"
+            android:text="@string/menu_tc_ecu" />
+
+        <!--<Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/button8"
+        android:layout_marginTop="16dp"
+        android:text="@string/title_activity_perso_tlrequisicion"
+        android:onClick="openTLRequisicion" />-->
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button8"
+            android:layout_marginTop="16dp"
+            android:onClick="openPRAPerso"
+            android:text="@string/title_activity_perso_ec__armas" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button10"
+            android:layout_marginTop="16dp"
+            android:onClick="openCedulaNEOPerso"
+            android:text="@string/btn_perso_neo_cedula" />
+        
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button11"
+            android:layout_marginTop="16dp"
+            android:onClick="openMetPerso"
+            android:text="@string/btn_perso_met" />
+        
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button12"
+            android:layout_marginTop="16dp"
+            android:onClick="openBoAutoPerso"
+            android:text="@string/btn_perso_bo_auto"/>
+        
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button13"
+            android:layout_marginTop="16dp"
+            android:onClick="openCombustibleEC"
+            android:text="@string/btn_Combustible_EC"/>
+        
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button14"
+            android:layout_marginTop="16dp"
+            android:onClick="openFidelityCard"
+            android:text="@string/btn_perso_fidelityCard"/>
+        
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button15"
+            android:layout_marginTop="16dp"
+            android:onClick="openTitulos"
+            android:text="TITULOS"/>
+        
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button16"
+            android:layout_marginTop="16dp"
+            android:onClick="openUmsa"
+            android:text="Umsa"/>
+        
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button17"
+            android:layout_marginTop="16dp"
+            android:onClick="openEngomado"
+            android:text="Validación Placas"/>
+        
+    </RelativeLayout>
+
+</ScrollView><!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/layout/activity_menu_perso.xml -->

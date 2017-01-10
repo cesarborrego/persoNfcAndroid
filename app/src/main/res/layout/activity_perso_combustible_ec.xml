@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PersoCedula_NEOActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/label_poliza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_folioTag_combustibleEC" />
+
+        <EditText
+            android:id="@+id/folioTagID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="@string/txt_folioTag_combustibleEC"/>
+
+        <TextView
+            android:id="@+id/label_placa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_placaVehiculo_combustibleEC" />
+
+        <EditText
+            android:id="@+id/placa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@string/txt_placaVehiculo_combustibleEC" />       
+
+        <CheckBox
+            android:id="@+id/subsidioID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_subsidio_combustibleEC" />
+
+        <TextView
+            android:id="@+id/label_fecha_vencimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_cantidadGalones_combustibleEC" />
+
+        <EditText
+            android:id="@+id/galonesMesID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:text="@string/txt_cantidadGalones_combustibleEC" />
+    </LinearLayout>
+
+</RelativeLayout>

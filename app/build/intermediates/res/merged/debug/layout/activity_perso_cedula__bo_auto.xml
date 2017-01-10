@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PersoCedula_NEOActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/label_poliza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_bo_auto_poliza" />
+
+        <EditText
+            android:id="@+id/poliza"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="@string/bo_auto_poliza_default" />
+
+        <TextView
+            android:id="@+id/label_placa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_bo_auto_placa" />
+
+        <EditText
+            android:id="@+id/placa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="@string/bo_auto_placa" />       
+
+        <TextView
+            android:id="@+id/label_fecha_emision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_fecha_emision" />
+
+        <EditText
+            android:id="@+id/fecha_emision"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:text="@string/bo_auto_fecha_emision_default" />
+
+        <TextView
+            android:id="@+id/label_fecha_vencimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_fecha_vencimiento" />
+
+        <EditText
+            android:id="@+id/fecha_vencimiento"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:text="@string/bo_auto_fecha_vencimiento_default" />
+
+        <TextView
+            android:id="@+id/label_lugar_emision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_lugar_emision"/>
+
+        <EditText
+            android:id="@+id/lugar_emision"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="@string/bo_auto_lugar_default" 
+            android:enabled="false"/>
+        
+        <TextView
+            android:id="@+id/label_tipo_poliza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_bo_auto_tipo_poliza"/>
+
+        <EditText
+            android:id="@+id/tipo_poliza"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="@string/bo_auto_tipo_poliza_default" 
+            android:enabled="true"/>
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/layout/activity_perso_cedula__bo_auto.xml -->

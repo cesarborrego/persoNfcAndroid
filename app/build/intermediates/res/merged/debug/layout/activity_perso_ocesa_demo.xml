@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PersoOcesaDemoActivity" >
+
+    <TextView
+        android:id="@+id/ocesa_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_id_usuario" />
+    <EditText 
+        android:id="@+id/ocesa_et1"
+        android:layout_below="@id/ocesa_tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+    <TextView 
+        android:id="@+id/ocesa_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ocesa_et1"
+        android:text="@string/ocesa_demo_tipo_acceso"/>
+    <Spinner
+        android:id="@+id/ocesa_spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ocesa_tv2" />
+    <TextView 
+        android:id="@+id/ocesa_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ocesa_spinner1"
+        android:text="@string/ocesa_demo_servicios"/>
+    <Spinner
+        android:id="@+id/ocesa_spinner2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ocesa_tv3" />
+    <TextView 
+        android:id="@+id/ocesa_tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ocesa_spinner2"
+        android:text="@string/ocesa_demo_promociones"/>
+    <Spinner
+        android:id="@+id/ocesa_spinner3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ocesa_tv4" />
+
+</RelativeLayout>
+<!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/layout/activity_perso_ocesa_demo.xml -->

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values-en/colores.xml -->
+    <eat-comment/>
+    <string-array name="colores">
+        <item>Without color</item>
+		<item>Yellow</item>
+		<item>Pink</item>
+		<item>Red</item>
+		<item>Green</item>
+		<item>Blue</item>
+    </string-array>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values-en/entidades.xml -->
+    <eat-comment/>
+    <string-array name="entidades">
+        <item>Not available</item>
+        <item>ALABAMA</item>
+        <item>ALASKA</item>
+        <item>ARIZONA</item>
+        <item>ARKANSAS</item>
+        <item>CALIFORNIA</item>
+        <item>COLORADO</item>
+        <item>CONNECTICUT</item>
+        <item>DELAWARE</item>
+        <item>FLORIDA</item>
+        <item>GEORGIA</item>
+        <item>HAWAII</item>
+        <item>IDAHO</item>
+        <item>ILLINOIS</item>
+        <item>INDIANA</item>
+        <item>IOWA</item>
+        <item>KANSAS</item>
+        <item>KENTUCKY</item>
+        <item>LOUISIANA</item>
+        <item>MAINE</item>
+        <item>MARYLAND</item>
+        <item>MASSACHUSETTS</item>
+        <item>MICHIGAN</item>
+        <item>MINNESOTA</item>
+        <item>MISSISSIPPI</item>
+        <item>MISSOURI</item>
+        <item>MONTANA</item>
+        <item>NEBRASKA</item>
+        <item>NEVADA</item>
+        <item>NEW HAMPSHIRE</item>
+        <item>NEW JERSEY</item>
+        <item>NEW MEXICO</item>
+        <item>NEW YORK</item>
+    </string-array>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values-en/tipostransporte.xml -->
+    <eat-comment/>
+    <string-array name="tipostransporte">
+        <item>Not available </item>
+        <item>Autotransporte Federal Carga, Pasaje y Turismo, con inversión extranjera, arrendamiento y arrendamiento de uso particular. (Unidades Motrices y Remolques).</item>
+        <item>Autotransporte Federal Transfronterizo de carga (Unidades Motrices y Remolques)</item>
+        <item>Autotransporte Federal Transfronterizo de pasaje</item>
+        <item>Autotransporte Federal Pasaje Económico y Mixto (Midibús)</item>
+        <item>Autotransporte Federal Traslado Nacional (Para todo tipo de vehículos)</item>
+        <item>Autotransporte Federal Traslado Nacional (Para Motocicletas)</item>
+        <item>Autotransporte Federal Paquetería y mensajería</item>
+        <item>Autotransporte Federal De capacidades diferentes</item>
+        <item>Autotransporte Federal Vehículos de diagnóstico (Para fabricantes de vehículos)</item>
+        <item>Transporte Particular Fronterizos Automóviles</item>
+        <item>Transporte Particular Fronterizos Camiones, Autobuses y Remolques</item>
+        <item>Público Local Automóviles, Camiones, Autobuses y Remolques</item>
+        <item>Corporaciones Policiacas y de Vigilancia Todo tipo de vehículos</item>
+        <item>Corporaciones Policiacas y de Vigilancia Policía de Tránsito</item>
+        <item>Corporaciones Policiacas y de Vigilancia Policía Auxiliar</item>
+        <item>Corporaciones Policiacas y de Vigilancia Policía Federal</item>
+        <item>Corporaciones Policiacas y de Vigilancia Policía Bancaria</item>
+        <item>Transporte Particular  Demostración, Distrito Federal (Todo tipo de vehículos)</item>
+        <item>Transporte Particular Demostración Entidades Federativas (Todo tipo de vehículos)</item>
+        <item>Private Transport Vehicle</item>
+        <item>Private Transport Trucks</item>
+        <item>Transporte Particular Autobuses</item>
+        <item>Transporte Particular Remolques</item>
+        <item>Público Local Libre y Sitio</item>
+        <item>Público Local Con itinerario fijo</item>
+        <item>Público Local Autobuses, Camiones y remolques</item>
+        <item>Público Local (Entidades Federativas) Automóviles</item>
+        <item>Público Local (Entidades Federativas) Camiones</item>
+        <item>Público Local (Entidades Federativas) Autobuses</item>
+        <item>Público Local (Entidades Federativas) Remolques</item>
+        <item>Transporte Particular (Autos Antiguos) Distrito Federal</item>
+        <item>Transporte Particular (Autos Antiguos) Entidades Federativas</item>
+        <item>H. Cuerpo de Bomberos Distrito Federal</item>
+        <item>H. Cuerpo de Bomberos Entidades Federativas</item>
+        <item>Inspección de Vías Generales de Comunicación S.C.T.</item>
+    </string-array>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values-en/strings.xml -->
+    <eat-comment/>
+    <string name="alert_placa">Input the plate number</string>
+    <string name="error_label">There was a conflict. Tap the NFC tag again to writte</string>
+    <string name="grabado_label">Successfully written</string>
+    <string name="instrucciones0_label">1.- Type and ID between NFC3 and NFC21</string>
+    <string name="instrucciones2_label">Data to write</string>
+    <string name="instrucciones_label">2.- Tap the NFC tag to write the data</string>
+    <string name="label_color">Third plate color</string>
+    <string name="label_estado">State</string>
+    <string name="label_placa">Plate</string>
+    <string name="label_tipo">Vehicle type</string>
+    <string name="login_label">Type the password</string>
+    <string name="skidata_inst1">Type an ID between SKIDATA0001 to SKIDATA0010</string>
+    <string name="title_activity_recharge">Write NFC tag</string>
+    <string name="title_parking_perso">1. Input the values to write</string>
+</resources>

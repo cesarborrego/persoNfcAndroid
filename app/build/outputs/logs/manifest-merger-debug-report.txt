@@ -1,0 +1,247 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:2:1-238:12
+	xmlns:android
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml
+		INJECTED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml
+		INJECTED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml
+		INJECTED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml
+		INJECTED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.NFC
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:11:5-62
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:11:22-59
+uses-permission#android.permission.INTERNET
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:12:22-64
+uses-permission#com.android.vending.BILLING
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:13:22-64
+application
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:15:5-236:19
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:18:9-41
+	android:allowBackup
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:16:9-35
+	android:icon
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:17:9-50
+	android:theme
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:19:9-40
+activity#c.neo.tolldemoperso.MainActivity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:20:9-37:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:24:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:22:13-45
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:21:13-60
+	android:launchMode
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:23:13-48
+intent-filter#android.intent.category.DEFAULT+android.nfc.action.NDEF_DISCOVERED
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:25:13-31:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:26:25-74
+data
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:28:17-68
+	android:mimeType
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:28:23-65
+category#android.intent.category.DEFAULT
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:30:17-76
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:30:27-73
+intent-filter#android.intent.category.DEFAULT+android.nfc.action.TAG_DISCOVERED
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:32:13-36:29
+action#android.nfc.action.TAG_DISCOVERED
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:33:17-76
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:33:25-73
+activity#c.neo.tolldemoperso.PersoTagActivity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:38:9-51:20
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:40:13-60
+	android:parentActivityName
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:41:13-74
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:39:13-64
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:42:13-44:73
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:43:17-63
+	android:value
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:44:17-70
+activity#c.neo.tolldemoperso.LoginActivity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:52:9-61:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:55:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:54:13-57
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:53:13-61
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:56:13-60:29
+action#android.intent.action.MAIN
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:57:17-69
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:57:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:59:17-77
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:59:27-74
+activity#c.neo.tolldemoperso.MenuPersoActivity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:62:9-65:20
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:64:13-62
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:63:13-65
+activity#c.neo.tolldemoperso.PersoParkingActivity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:66:9-79:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:69:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:68:13-65
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:67:13-68
+activity#c.neo.tolldemoperso.PersoCedula_BOActivity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:80:9-89:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:83:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:82:13-68
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:81:13-70
+activity#c.neo.tolldemoperso.PersoFroovieActivity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:90:9-99:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:93:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:92:13-65
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:91:13-68
+activity#c.neo.tolldemoperso.PersoLicense_CIActivity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:100:9-108:20
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:102:13-69
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:101:13-71
+activity#c.neo.tolldemoperso.PersoOcesaDemoActivity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:109:9-116:20
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:111:13-68
+	android:parentActivityName
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:112:13-79
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:110:13-70
+activity#c.neo.tolldemoperso.PersoSkiDataActivity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:117:9-120:20
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:119:13-66
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:118:13-68
+activity#c.neo.tolldemoperso.PersoTarjetaCirculacionECActivity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:121:9-130:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:124:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:123:13-81
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:122:13-81
+activity#c.neo.tolldemoperso.PersoTLRequisicionActivity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:131:9-134:20
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:133:13-71
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:132:13-74
+activity#c.neo.tolldemoperso.PersoEC_ArmasActivity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:135:9-148:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:139:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:137:13-67
+	android:parentActivityName
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:138:13-79
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:136:13-69
+activity#c.neo.tolldemoperso.PersoCedula_NEOActivity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:149:9-158:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:152:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:151:13-68
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:150:13-71
+activity#c.neo.tolldemoperso.PersoPoliza_MetlifeActivity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:160:9-169:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:163:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:162:13-68
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:161:13-75
+activity#c.neo.tolldemoperso.PersoBO_Auto_Activity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:171:9-180:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:174:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:173:13-65
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:172:13-69
+activity#c.neo.tolldemoperso.PersoCombustible_EC_Activity
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:182:9-191:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:185:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:184:13-65
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:183:13-76
+activity#c.neo.tolldemoperso.PersoFidelity_Card
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:193:9-202:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:196:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:195:13-42
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:194:13-66
+activity#c.neo.tolldemoperso.PersoTitulos
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:204:9-213:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:207:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:206:13-36
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:205:13-60
+activity#c.neo.tolldemoperso.Perso_UMSA_ID
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:215:9-224:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:218:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:217:13-33
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:216:13-61
+activity#c.neo.tolldemoperso.Perso_Validacion_Placas
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:226:9-235:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:229:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:228:13-37
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:227:13-71

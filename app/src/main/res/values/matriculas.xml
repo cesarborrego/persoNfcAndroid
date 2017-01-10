@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="matriculas">
+        <item>200901A-11</item>
+		<item>30598277A-11</item>
+		<item>201001A-66</item>
+		<item>85923797A-12</item>
+		<item>77338520A-13</item>
+		<item>62719190A-14</item>
+		<item>69978991A-15</item>
+		<item>201001A-67</item>
+    </string-array>
+</resources>
