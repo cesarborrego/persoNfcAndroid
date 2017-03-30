@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:2:1-238:12
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:2:1-259:12
 	xmlns:android
 		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:2:11-69
 	package
@@ -36,7 +36,7 @@ ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.
 	android:name
 		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:13:22-64
 application
-ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:15:5-236:19
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:15:5-257:19
 	android:label
 		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:18:9-41
 	android:allowBackup
@@ -245,3 +245,19 @@ ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.
 		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:228:13-37
 	android:name
 		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:227:13-71
+activity#c.neo.tolldemoperso.Perso_Parki
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:236:9-245:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:239:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:238:13-41
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:237:13-59
+activity#c.neo.tolldemoperso.Perso_Brasil
+ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:247:9-256:20
+	android:screenOrientation
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:250:13-49
+	android:label
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:249:13-37
+	android:name
+		ADDED from /home/cesar/Android/PersoTollingNeology/app/src/main/AndroidManifest.xml:248:13-60

@@ -110,4 +110,14 @@ public class MenuPersoActivity extends Activity {
 		Intent intentPerso = new Intent(this, Perso_Validacion_Placas.class);
 		 startActivity(intentPerso);
 	}
+
+	public void openParquimetro(View view){
+		Intent intentPerso = new Intent(this, Perso_Parki.class);
+		startActivity(intentPerso);
+	}
+
+	public void openBrasil(View view){
+		Intent intentPerso = new Intent(this, Perso_Brasil.class);
+		startActivity(intentPerso);
+	}
 }

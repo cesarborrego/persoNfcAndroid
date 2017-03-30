@@ -167,5 +167,6 @@
     <string name="txt_dateCreate">AB 123 CD</string>    
     <string name="txt_expirateDate">FORD FOCUS</string>
     <string name="txt_fuelType">DIESEL</string>
-	
+    <string name="mercosur">MERCOSUR</string>
+
 </resources>

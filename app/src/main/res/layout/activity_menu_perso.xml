@@ -209,6 +209,28 @@
             android:layout_marginTop="16dp"
             android:onClick="openEngomado"
             android:text="Validación Placas"/>
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button18"
+            android:layout_marginTop="16dp"
+            android:onClick="openParquimetro"
+            android:text="Parquímetros"/>
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/button19"
+            android:layout_marginTop="16dp"
+            android:onClick="openBrasil"
+            android:text="@string/mercosur"/>
         
     </RelativeLayout>
 

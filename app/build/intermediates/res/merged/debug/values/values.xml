@@ -241,6 +241,7 @@
     <string name="menu_skidata">Ski Data</string>
     <string name="menu_tc_ecu">Tarjeta Circulacion ECU</string>
     <string name="menu_tolling">Tolling Perso</string>
+    <string name="mercosur">MERCOSUR</string>
     <string name="neo_cedula_default">6500008893</string>
     <string name="neo_fecha_emision_default">26-07-2013</string>
     <string name="neo_fecha_vencimiento_default">26-07-2014</string>
