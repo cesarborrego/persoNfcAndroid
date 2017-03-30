@@ -29,58 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c10187a-e524-4091-b24d-fed334765c91" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/c/neo/secure/PersoSecure_Brasil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/c/neo/secure/PersoSecure_Parki.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/c/neo/tolldemoperso/Perso_Brasil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/c/neo/tolldemoperso/Perso_Parki.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_perso_brasil.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_perso_parki.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/MenuPersoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/MenuPersoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoBO_Auto_Activity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoBO_Auto_Activity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoCedula_BOActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoCedula_BOActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoCedula_NEOActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoCedula_NEOActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoCombustible_EC_Activity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoCombustible_EC_Activity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoEC_ArmasActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoEC_ArmasActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoFidelity_Card.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoFidelity_Card.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoFroovieActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoFroovieActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoLicense_CIActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoLicense_CIActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoOcesaDemoActivity$ConsultaWS.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoOcesaDemoActivity$ConsultaWS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoOcesaDemoActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoOcesaDemoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoParkingActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoParkingActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoPoliza_MetlifeActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoPoliza_MetlifeActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoSkiDataActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoSkiDataActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoTLRequisicionActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoTLRequisicionActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoTagActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoTagActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoTarjetaCirculacionECActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoTarjetaCirculacionECActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoTitulos.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoTitulos.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoUmsa.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/PersoUmsa.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/Perso_UMSA_ID.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/Perso_UMSA_ID.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/Perso_Validacion_Placas.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/Perso_Validacion_Placas.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/c/neo/tolldemoperso/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/c/neo/tolldemoperso/MenuPersoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/c/neo/tolldemoperso/MenuPersoActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/c/neo/tolldemoperso/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/c/neo/tolldemoperso/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_menu_perso.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_menu_perso.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu_perso.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu_perso.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/c/neo/secure/PersoSecure_Parki.java" afterPath="$PROJECT_DIR$/app/src/main/java/c/neo/secure/PersoSecure_Parki.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/c/neo/tolldemoperso/Perso_Parki.java" afterPath="$PROJECT_DIR$/app/src/main/java/c/neo/tolldemoperso/Perso_Parki.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_perso_parki.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_perso_parki.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PersoTollingNeology.iws" />
@@ -1854,6 +1805,13 @@
       <option name="number" value="Default" />
       <updated>1484067874553</updated>
     </task>
+    <task id="LOCAL-00001" summary="se agrega grabacion de parquimetros y mercosur(soat brasil)">
+      <created>1490832734266</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1490832734266</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1928,6 +1886,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="se agrega grabacion de parquimetros y mercosur(soat brasil)" />
+    <option name="LAST_COMMIT_MESSAGE" value="se agrega grabacion de parquimetros y mercosur(soat brasil)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
