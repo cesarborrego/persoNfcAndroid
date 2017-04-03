@@ -59,6 +59,16 @@
         <item>YUCATAN</item>
         <item>ZACATECAS</item>
     </string-array>
+    <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values/folios_array.xml -->
+    <eat-comment/>
+    <string-array name="folios">
+        <item>P_00001005</item>
+        <item>P_00001006</item>
+        <item>T_00001024</item>
+        <item>T_00001025</item>
+        <item>M_1234567_1</item>
+        <item>M_1234567_2</item>
+    </string-array>
     <!-- From: file:/home/cesar/Android/PersoTollingNeology/app/src/main/res/values/matriculas.xml -->
     <eat-comment/>
     <string-array name="matriculas">

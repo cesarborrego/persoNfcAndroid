@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="folios">
+        <item>P_00001005</item>
+        <item>P_00001006</item>
+        <item>T_00001024</item>
+        <item>T_00001025</item>
+        <item>M_1234567_1</item>
+        <item>M_1234567_2</item>
+    </string-array>
+</resources>

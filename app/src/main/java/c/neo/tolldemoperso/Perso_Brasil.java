@@ -18,7 +18,11 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.Menu;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import java.io.IOException;
@@ -39,6 +43,8 @@ public class Perso_Brasil extends Activity {
     private PendingIntent mPendingIntent;
     private IntentFilter[] mFilters;
     private String[][] mTechLists;
+    private Spinner poliza;
+    private String tipoPoliza;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +74,30 @@ public class Perso_Brasil extends Activity {
 
         // Setup a tech list for all NfcF tags
         mTechLists = new String[][]{new String[]{NfcF.class.getName()}};
+
+        loadSpinner();
+    }
+
+    private void loadSpinner() {
+        poliza = (Spinner) findViewById(R.id.poliza);
+        // Create an ArrayAdapter using the string array and a default spinner layout
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.folios, android.R.layout.simple_spinner_item);
+        // Specify the layout to use when the list of choices appears
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        // Apply the adapter to the spinner
+        poliza.setAdapter(adapter);
+        poliza.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                tipoPoliza = parent.getItemAtPosition(position).toString();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+                Log.d(TAG, "nada seleccionado, poliza 1 por default");
+            }
+        });
     }
 
     @Override
@@ -119,13 +149,7 @@ public class Perso_Brasil extends Activity {
     private void write(Tag tag) throws IOException, FormatException {
         String cadena_grabar = "";
         // 	Poliza
-        edittext = (EditText) findViewById(R.id.poliza);
-        cadena_grabar += edittext.getText().toString().toUpperCase(Locale.getDefault()) + "|";
-        //Placa
-        edittext = (EditText) findViewById(R.id.placa);
-        cadena_grabar += edittext.getText().toString().toUpperCase(Locale.getDefault()) + "|";
-        edittext = (EditText) findViewById(R.id.tipo_poliza);
-        cadena_grabar += edittext.getText() + "|4";
+        cadena_grabar += tipoPoliza + "|4";
 
         Log.d(TAG, cadena_grabar);
 
